@@ -1,0 +1,5 @@
+Nesta aula foi explicado o como executar o JavaScript no navegador através da tag "Script" no HTML, ou por um arquivo 
+externo.
+
+O professor diz que para o curso não importa a forma como você faz esse link, mas no mercado de trabalho o correto é 
+fazer por um arquivo externo
