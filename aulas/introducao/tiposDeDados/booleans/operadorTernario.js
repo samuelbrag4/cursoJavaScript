@@ -13,3 +13,9 @@ const podeBeber = idade >= 18 ? 'Pode beber' : 'Não pode beber';
 console.log(podeBeber); // Pode beber
 
 // O operador ternário é muito útil para retornar valores com base em condições. Ele é muito utilizado em JSX, por exemplo, para renderizar componentes condicionalmente.
+
+// Explicação melhor:
+
+console.log(1 > 2 ? "É maior" : "É menor");
+
+// Explicação falada: 1 é maior que 2? Se for (?) eu exibo "É maior", se não (:) eu exibo "É menor"
