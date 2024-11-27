@@ -2,8 +2,8 @@
 
 // Elas podem ser declaradas de 3 formas diferentes:
 // var-> variável global
-// let-> variável local
-// const-> variável constante
+// let-> variável local 
+// const-> variável constante (valor não pode ser alterado)
 // Normalmente, a mais utilizada é a let
 
 // var
@@ -17,6 +17,16 @@ const dataNascimento = '01/01/1995';
 
 // Exibindo as variáveis
 console.log(nome, idade, dataNascimento);
+
+// Nomes de variáveis
+// Não podem começar com números
+// Não podem conter espaços
+// Não podem conter caracteres especiais, exceto _ e $
+
+let $nome = 'Luiz';
+let _nome = 'Luiz';
+// let @nome = 'Luis'; // Erro
+// let !nome = 'Luiz'; // Erro
 
 // Alterando o valor de uma variável
 idade = idade + 1;
