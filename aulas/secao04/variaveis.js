@@ -22,11 +22,32 @@ console.log(nome, idade, dataNascimento);
 // Não podem começar com números
 // Não podem conter espaços
 // Não podem conter caracteres especiais, exceto _ e $
+// Não podem ser palavras reservadas
 
 let $nome = 'Luiz';
 let _nome = 'Luiz';
 // let @nome = 'Luis'; // Erro
 // let !nome = 'Luiz'; // Erro
+
+// Palavras reservadas
+// let var = 'Luiz'; // Erro
+// let if = 'Luiz'; // Erro
+// let else = 'Luiz'; // Erro
+// let for = 'Luiz'; // Erro
+// let while = 'Luiz'; // Erro
+// let switch = 'Luiz'; // Erro
+// let case = 'Luiz'; // Erro
+// let break = 'Luiz'; // Erro
+// let continue = 'Luiz'; // Erro
+// let return = 'Luiz'; // Erro
+// let try = 'Luiz'; // Erro
+// let catch = 'Luiz'; // Erro
+// let finally = 'Luiz'; // Erro
+// let throw = 'Luiz'; // Erro
+// let class = 'Luiz'; // Erro
+// let const = 'Luiz'; // Erro
+// let export = 'Luiz'; // Erro
+// let import = 'Luiz'; // Erro
 
 // Alterando o valor de uma variável
 idade = idade + 1;
