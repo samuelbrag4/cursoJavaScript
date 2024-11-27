@@ -23,3 +23,15 @@ idade = idade + 1;
 
 // Nova idade
 console.log(idade);
+
+// Mudando o tipo de uma variável (de number para string)
+idade = '25 anos';
+
+// Exibindo a nova idade
+console.log(idade);
+
+// Daclarando várias variáveis de uma vez
+let nome2 = 'Maria', idade2 = 30, cidade = 'Rio de Janeiro';
+
+// Exibindo as variáveis
+console.log(nome2, idade2, cidade);
