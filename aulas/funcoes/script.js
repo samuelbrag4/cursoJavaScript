@@ -361,6 +361,8 @@ function exibirLivros() {
     for (let i = 0; i < biblioteca.livros.length; i++) {
         console.log(`Livro: ${biblioteca.livros[i].titulo} - Autor: ${biblioteca.livros[i].autor} - Gênero: ${biblioteca.livros[i].genero} - Disponível: ${biblioteca.livros[i].emprestado ? 'Não' : 'Sim'}`);
     }
+
+    document.getElementById('verificarLivro').onclick = exibirLivros;
 }
 
 exibirLivros();
