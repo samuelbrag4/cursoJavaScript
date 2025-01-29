@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema Bibliotecario</title>
 </head>
 <body>
-    
+
+    <header>
+
+        <h1>Sistema Bibliotecario</h1>
+        <p>Selecione os botões para realizar a tarefa requisitada</p>
+    </header>
+
+    <main>
+        <article class="buttons">
+            <button onclick="verificarLivros()">Verificar Livros Disponíveis</button>
+            <button onclick="listarLivros()">Listar Livros</button>
+            <button onclick="pesquisarLivro()">Pesquisar Livro</button>
+            <button onclick="adicionarLivro()">Adicionar Livro</button>
+            <button onclick="removerLivro()">Remover Livro</button>
+            <button onclick="emprestarLivro()">Emprestar Livro</button>
+            <button onclick="devolverLivro()">Devolver Livro</button>
+            <button onclick="listarFuncionarios()">Listar Funcionários</button>
+            <button onclick="listarUsuarios()">Listar Usuários</button>
+            <button onclick="listarLocalizacao()">Listar Localização</button>
+            <button onclick="adicionarFuncionario()">Adicionar Funcionário</button>
+            <button onclick="removerFuncionario()">Remover Funcionário</button>
+            <button onclick="adicionarUsuario()">Adicionar Usuário</button>
+            <button onclick="removerUsuario()">Remover Usuário</button>
+            <button onclick="mudarInformacao()">Mudar Informação</button>
+            <button onclick="imprimirRecibo()">Imprimir Recibo</button>
+        </article>
+
+        <section class="result">
+            <h2>Resultado</h2>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <!-- Script -->
     <script src="/aulas/funcoes/script.js"></script>
 </body>
 </html>
